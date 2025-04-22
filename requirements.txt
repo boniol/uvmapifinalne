@@ -6,4 +6,6 @@ librosa
 soundfile
 python-telegram-bot==20.0
 requests
+python-multipart
+
 
