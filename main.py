@@ -51,6 +51,10 @@ async def separate(file: UploadFile = File(...)):
 
     # Zwróć wynik
     return FileResponse(output_path, media_type="audio/wav", filename="instrumental.wav")
+if __name__ == "__main__":
+    import uvicorn
+    port = int(os.environ.get("PORT", 8000))  # domyślnie 8000 jeśli PORT nie ustawiony
+    uvicorn.run("main:app", host="0.0.0.0", port=port)
 
 
 
