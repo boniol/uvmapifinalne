@@ -169,6 +169,13 @@ cython_debug/
 
 # Ruff stuff:
 .ruff_cache/
+# DODANE PRZEZ SZEFA
+input_audio/
+output_audio/
+models/
+*.onnx
+*.wav
+
 
 # PyPI configuration file
 .pypirc
