@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+onnxruntime
+numpy
+librosa
+soundfile
+python-telegram-bot==20.0
+requests
+
